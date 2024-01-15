@@ -7,7 +7,7 @@ import LOGO from '../images/OfferLogo.png';
 function Coffee1() {
     return (
         <>
-            <a name="Second"></a><div className="Coffee-Container">
+            <a name="Menu"></a><div className="Coffee-Container">
                 <div className="Coffee-Paragraph">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil voluptates voluptatem odit magnam libero. Earum dicta repellat amet pariatur autem cum, eum praesentium eveniet alias accusantium optio animi quod. Eveniet, maxime! Omnis odio soluta incidunt officiis blanditiis! Vel iure earum aperiam, eum odit atque, nobis laborum aliquid distinctio voluptas exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente officiis sunt eos nam odit impedit tempore architecto quo, fugiat consectetur?</p>
                 </div>

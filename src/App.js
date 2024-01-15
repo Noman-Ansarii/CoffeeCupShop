@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -6,8 +6,15 @@ import Coffee1 from './components/Coffee1';
 import About from './components/About';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+    useEffect (() => {
+        Aos.init({
+          duration: 800,
+        });
+    }, []);
   return (
     <>
         <Navbar />

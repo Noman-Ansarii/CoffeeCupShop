@@ -4,7 +4,7 @@ import IMG from '../images/Reviews.png'
 function About() {
   return (
     <>
-      <a name="Third"></a><div className="Main-About">
+      <a name="about"></a><div className="Main-About">
         <div className="Inner-About">
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt consequatur autem odit officia molestias perferendis! Quae quo delectus, consequatur deserunt porro ipsa dignissimos eligendi reiciendis atque, officia provident natus assumenda at earum itaque commodi quod doloribus sequi quisquam impedit autem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. A dolorum iste numquam esse, nostrum consectetur eum necessitatibus non labore nulla!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nobis modi nemo accusantium, at temporibus voluptate ratione impedit commodi iusto!</p>
@@ -13,7 +13,7 @@ function About() {
       </div>
 
       {/* Reviews */}
-
+      <a href="Blog"></a>
       <div className="Reviews-Container">
         <h1>Coustomer Reviews</h1>
         <div className="Inner-ReviewsContainer">
