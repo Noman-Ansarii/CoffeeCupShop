@@ -3,6 +3,7 @@ import IMG from '../images/Coffee.png';
 import IMG2 from '../images/Coffee2.png';
 import IMG3 from '../images/Coffee3.png';
 import LOGO from '../images/OfferLogo.png';
+// 
 
 function Coffee1() {
     return (
