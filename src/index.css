@@ -381,6 +381,7 @@ nav {
 }
 
 .Reactangle-Conatiner {
+    width: 100%;
     text-align: center;
 }
 
@@ -936,6 +937,7 @@ nav {
         border-top: 5px solid #152c52;
         border-bottom: 5px solid #152c52;
         padding: 3rem;
+        overflow: hidden;
     }
 
     .OfferBorderConatiner {
@@ -953,7 +955,7 @@ nav {
         border: 1rem solid var(--Special-color);
         background: var(--main-color);
         border-radius: 50%;
-        padding: 7rem;
+        padding: 4rem;
         text-align: center;
         transition: transform 0.35s ease;
     }
@@ -2818,7 +2820,7 @@ nav {
         font-family: var(--Special-font);
     }
 
-    .Reviews-img{
+    .Reviews-img {
         width: 100%;
         height: 500px;
     }
@@ -3033,909 +3035,926 @@ nav {
 
     /* Coffee.js */
 
-.Coffee-Container {
-    height: 100vh;
-    background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
-    position: relative;
-}
-
-.Coffee-Container h1 {
-    font-family: var(--Special-font);
-    font-size: 6rem;
-    max-width: 20rem;
-    color: var(--Special-font);
-    padding: 30rem 0 2rem 3rem;
-}
-
-.Coffee-Paragraph {
-    float: right;
-    height: 100%;
-    width: 50%;
-}
-
-.Coffee-Container p {
-    float: right;
-    color: white;
-    max-width: 50rem;
-    margin-top: 15rem;
-    padding: 0 100px;
-    text-align: center;
-}
-
-.Coffee-Container img {
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    border: 1.2rem inset var(--Special-color);
-    border-radius: 50%;
-    transition: transform 0.4s ease;
-}
-
-.Coffee-Container img:hover {
-    transform: scale(1.05);
-}
-
-.Coffee-Container a {
-    text-decoration: none;
-    background: var(--Special-color);
-    color: var(--main-color);
-    padding: 1rem 2rem;
-    font-weight: bolder;
-    font-size: 2rem;
-    border-radius: 25px;
-    margin: 0 0 0 3.5rem;
-    transition: all .2s ease;
-    font-family: var(--Normal-font);
-}
-
-.Coffee-Container a:hover {
-    background: var(--main-color);
-    color: var(--Special-color);
-}
-
-/* Coffee2 */
-
-.Coffee-Container2 {
-    height: 100vh;
-    background-image: linear-gradient(to left, var(--Second-white) 50%, var(--main-color) 50%);
-    position: relative;
-}
-
-.Coffee-Details2 {
-    float: right;
-}
-
-.Coffee-Container2 h1 {
-    font-family: var(--Special-font);
-    max-width: 20rem;
-    font-size: 6rem;
-    color: var(--Special-font);
-    padding: 30rem 25rem 3rem 0;
-}
-
-.Coffee-Container2 p {
-    color: white;
-    max-width: 50%;
-    padding: 15rem 100px 0 100px;
-    text-align: center;
-}
-
-.Coffee-Container2 img:hover {
-    transform: scale(1.05);
-}
-
-.Coffee-Container2 img {
-    position: absolute;
-    top: 2%;
-    left: 53%;
-    border: 1.2rem dashed var(--Special-color);
-    border-radius: 50%;
-    transition: transform 0.4s ease;
-}
-
-.Coffee-Container2 a {
-    text-decoration: none;
-    background: var(--Special-color);
-    color: var(--main-color);
-    padding: 1rem 2rem;
-    font-weight: bolder;
-    font-size: 2rem;
-    border-radius: 25px;
-    transition: all .2s ease;
-    font-family: var(--Normal-font);
-}
-
-.Coffee-Container2 a:hover {
-    background: var(--main-color);
-    color: var(--Special-color);
-}
-
-/* Coffee3 */
-
-.Coffee-Container3 {
-    height: 100vh;
-    background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
-    position: relative;
-}
-
-.Coffee-Container3 h1 {
-    font-family: var(--Special-font);
-    font-size: 6rem;
-    max-width: 20rem;
-    color: var(--Special-font);
-    padding: 30rem 0 2rem 2rem;
-}
-
-.Coffee-Container3 p {
-    float: right;
-    color: white;
-    max-width: 50%;
-    margin-top: 15rem;
-    padding: 0 100px;
-    text-align: center;
-}
-
-.Coffee-Container3 img {
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    border: 1.2rem groove var(--Special-color);
-    border-radius: 50%;
-    transition: transform 0.4s ease;
-}
-
-.Coffee-Container3 img:hover {
-    transform: scale(1.05);
-}
-
-.Coffee-Container3 a {
-    text-decoration: none;
-    background: var(--Special-color);
-    color: var(--main-color);
-    padding: 1rem 2rem;
-    font-weight: bolder;
-    font-size: 2rem;
-    border-radius: 25px;
-    margin: 0 0 0 3.5rem;
-    transition: all .2s ease;
-    font-family: var(--Normal-font);
-}
-
-.Coffee-Container3 a:hover {
-    background: var(--main-color);
-    color: var(--Special-color);
-}
-
-/* OfferConatiner */
-
-.OfferConatiner {
-    height: 70vh;
-    background: var(--Second-white);
-    border-top: 5px solid #152c52;
-    border-bottom: 0 solid #152c52;
-    padding: 3rem;
-}
-
-.OfferBorderConatiner {
-    display: flex;
-    justify-content: space-between;
-    border: 1rem solid #152c52;
-    overflow: hidden;
-    padding: 3rem;
-}
-
-.Offer-Cricle {
-    border: 1rem solid var(--Special-color);
-    background: var(--main-color);
-    border-radius: 50%;
-    padding: 20px;
-    width: 300px;
-    height: 350px;
-    text-align: center;
-    transition: transform 0.35s ease;
-}
-
-.Offer-Cricle img{
-    margin-top: 30px;
-}
-
-.Offer-Cricle h1 {
-    color: white;
-    font-size: 4rem;
-}
-
-.Offer-Cricle:hover {
-    transform: scale(1.05);
-}
-
-.Reactangle-Conatiner {
-    text-align: center;
-}
-
-.Reactangle-Conatiner h1 {
-    font-family: var(--Special-font);
-    font-size: 5rem;
-    color: var(--main-color);
-    padding-top: 1rem;
-}
-
-.Reactangle-Conatiner p {
-    max-width: 30rem;
-    font-weight: bold;
-}
-
-.Offer {
-    border: .3rem solid #dd6c3f;
-    background: #e08c6b;
-    border-radius: 25px;
-    margin: 1.3rem 0 2rem 0;
-    transition: transform 0.35s ease;
-}
-
-.Offer h1 {
-    font-family: var(--Normal-font);
-    font-size: 3rem;
-    font-weight: bolder;
-    padding: .6rem 0;
-}
-
-.Offer:hover {
-    transform: scale(1.05);
-}
-
-/* About.js */
-
-.Main-About {
-    height: 86vh;
-    padding: 3rem;
-    background: var(--Second-white);
-    border-top: 5px solid #152c52;
-    border-bottom: 5px solid #152c52;
-}
-
-.Inner-About {
-    background: #f6f6f4;
-    text-align: center;
-}
-
-.Inner-About h1 {
-    font-family: var(--Special-font);
-    font-size: 5rem;
-    font-weight: bold;
-    padding-top: 1.3rem;
-}
-
-.Inner-About p {
-    padding: 2rem 3em;
-    font-weight: 600;
-}
-
-/* Reviews */
-
-.Reviews-Container {
-    height: 105vh;
-    padding: 1rem 3rem 1rem 3rem;
-    background: var(--Second-white);
-    color: var(--main-color);
-    font-family: var(--Special-font);
-    text-align: center;
-    border-top: 5px solid #152c52;
-    border-bottom: 0 solid #152c52;
-    box-sizing: border-box;
-}
-
-.Reviews-Container h1 {
-    font-size: 6rem;
-}
-
-.Inner-ReviewsContainer {
-    display: flex;
-    justify-content: space-between;
-    background: var(--main-color);
-    color: white;
-    font-family: var(--Special-font);
-}
-
-.Reviews-img img{
-    width: 25rem;
-    height: 100%;
-    padding: 2rem;
-}
-
-.Reviews-Person h2 {
-    font-size: 3.4rem;
-    padding-top: 7rem;
-}
-
-.Reviews-Person p {
-    font-family: var(--Normal-font);
-    font-weight: light;
-    font-size: 1.2rem;
-    padding: 10px 2rem;
-    line-height: 1.9rem;
-    word-spacing: 6px;
-}
-
-/* Open */
-
-.OpenDays {
-    height: 100vh;
-    background: var(--Second-white);
-    text-align: center;
-    border-top: 5px solid #152c52;
-    border-bottom: 5px solid #152c52;
-}
-
-.OpenDays h1 {
-    color: var(--main-color);
-    font-family: var(--Special-font);
-    font-size: 5rem;
-    padding-top: 3rem;
-}
-
-.Box1 {
-    width: 60%;
-    height: 18rem;
-    margin: 5% 20%;
-    background: #233e6a;
-    border-radius: 50px;
-    box-shadow: 8px 8px 18px black;
-    transition: transform .4s ease;
-}
-
-.Box1:hover {
-    transform: scale(1.05);
-}
-
-.Box1 h1 {
-    color: white;
-    font-size: 3rem;
-    font-weight: normal;
-    padding-top: 5rem;
-    font-family: var(--Normal-font);
-}
-
-.Box2 {
-    width: 60%;
-    height: 18rem;
-    margin: 5% 20%;
-    background: #233e6a;
-    border-radius: 50px;
-    box-shadow: 8px 8px 18px black;
-    transition: transform .4s ease;
-}
-
-.Box2:hover {
-    transform: scale(1.05);
-}
-
-.Box2 h1 {
-    color: white;
-    font-size: 3rem;
-    font-weight: normal;
-    padding-top: 5rem;
-    font-family: var(--Normal-font);
-}
-
-/* Card.js */
-
-.Cards-Conatiner {
-    height: 100vh;
-    background: var(--Second-white);
-    text-align: center;
-}
-
-.Cards-Conatiner h1 {
-    font-family: var(--Special-font);
-    color: var(--main-color);
-    font-size: 5rem;
-    padding: 4rem 0;
-}
-
-.row {
-    width: 99%;
-}
-
-.col {
-    margin-left: 2%;
-    margin-bottom: 2rem;
-}
-
-.card {
-    width: 275px;
-    height: 520px;
-    background: #233e6a;
-    border-radius: 0;
-    border: none;
-    transition: transform .3s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card-body {
-    background: var(--main-color);
-    color: white;
-    margin: 1rem;
-    overflow: hidden;
-}
-
-.badge {
-    background: var(--Special-color);
-    font-family: var(--Special-font);
-    font-size: 3rem;
-}
-
-/* Footer.js */
-
-.MainFooter {
-    height: 53vh;
-    background: #11213f;
-    color: white;
-}
-
-.MainFooter a {
-    text-decoration: none;
-    color: white;
-}
-
-.InnerFooter {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5rem;
-}
-
-.FooterLogo a {
-    font-weight: bold;
-    font-size: 2.7rem;
-    padding-left: 20px;
-}
-
-.Box3 {
-    display: flex;
-    flex-direction: column;
-}
-
-.Box3 h1 {
-    font-weight: bolder;
-    padding-bottom: 3rem;
-}
-
-.Box3 a {
-    font-size: 1.2rem;
-    line-height: 3rem;
-}
-
-.Box4 {
-    display: flex;
-    flex-direction: column;
-    padding-right: 4rem;
-}
-
-.Box4 a {
-    font-size: 1.2rem;
-    line-height: 3rem;
-}
-
-.Box4 h1 {
-    font-weight: bolder;
-    padding-bottom: 3rem;
-}
-
-.Footer a {
-    color: var(--Special-color);
-    font-size: 2rem;
-    padding-right: 2rem;
-    float: right;
-}
-
-.Footer i {
-    transition: all .3s ease;
-}
-
-.Footer i:hover {
-    transform: scale(1.55);
-}
+    .Coffee-Container {
+        height: 100vh;
+        background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
+        position: relative;
+    }
+
+    .Coffee-Container h1 {
+        font-family: var(--Special-font);
+        font-size: 6rem;
+        max-width: 20rem;
+        color: var(--Special-font);
+        padding: 30rem 0 2rem 3rem;
+    }
+
+    .Coffee-Paragraph {
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    .Coffee-Container p {
+        float: right;
+        color: white;
+        max-width: 50rem;
+        margin-top: 15rem;
+        padding: 0 100px;
+        text-align: center;
+    }
+
+    .Coffee-Container img {
+        position: absolute;
+        top: 2%;
+        left: 3%;
+        border: 1.2rem inset var(--Special-color);
+        border-radius: 50%;
+        transition: transform 0.4s ease;
+    }
+
+    .Coffee-Container img:hover {
+        transform: scale(1.05);
+    }
+
+    .Coffee-Container a {
+        text-decoration: none;
+        background: var(--Special-color);
+        color: var(--main-color);
+        padding: 1rem 2rem;
+        font-weight: bolder;
+        font-size: 2rem;
+        border-radius: 25px;
+        margin: 0 0 0 3.5rem;
+        transition: all .2s ease;
+        font-family: var(--Normal-font);
+    }
+
+    .Coffee-Container a:hover {
+        background: var(--main-color);
+        color: var(--Special-color);
+    }
+
+    /* Coffee2 */
+
+    .Coffee-Container2 {
+        height: 100vh;
+        background-image: linear-gradient(to left, var(--Second-white) 50%, var(--main-color) 50%);
+        position: relative;
+    }
+
+    .Coffee-Details2 {
+        float: right;
+    }
+
+    .Coffee-Container2 h1 {
+        font-family: var(--Special-font);
+        max-width: 20rem;
+        font-size: 6rem;
+        color: var(--Special-font);
+        padding: 30rem 25rem 3rem 0;
+    }
+
+    .Coffee-Container2 p {
+        color: white;
+        max-width: 50%;
+        padding: 15rem 100px 0 100px;
+        text-align: center;
+    }
+
+    .Coffee-Container2 img:hover {
+        transform: scale(1.05);
+    }
+
+    .Coffee-Container2 img {
+        position: absolute;
+        top: 2%;
+        left: 53%;
+        border: 1.2rem dashed var(--Special-color);
+        border-radius: 50%;
+        transition: transform 0.4s ease;
+    }
+
+    .Coffee-Container2 a {
+        text-decoration: none;
+        background: var(--Special-color);
+        color: var(--main-color);
+        padding: 1rem 2rem;
+        font-weight: bolder;
+        font-size: 2rem;
+        border-radius: 25px;
+        transition: all .2s ease;
+        font-family: var(--Normal-font);
+    }
+
+    .Coffee-Container2 a:hover {
+        background: var(--main-color);
+        color: var(--Special-color);
+    }
+
+    /* Coffee3 */
+
+    .Coffee-Container3 {
+        height: 100vh;
+        background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
+        position: relative;
+    }
+
+    .Coffee-Container3 h1 {
+        font-family: var(--Special-font);
+        font-size: 6rem;
+        max-width: 20rem;
+        color: var(--Special-font);
+        padding: 30rem 0 2rem 2rem;
+    }
+
+    .Coffee-Container3 p {
+        float: right;
+        color: white;
+        max-width: 50%;
+        margin-top: 15rem;
+        padding: 0 100px;
+        text-align: center;
+    }
+
+    .Coffee-Container3 img {
+        position: absolute;
+        top: 2%;
+        left: 3%;
+        border: 1.2rem groove var(--Special-color);
+        border-radius: 50%;
+        transition: transform 0.4s ease;
+    }
+
+    .Coffee-Container3 img:hover {
+        transform: scale(1.05);
+    }
+
+    .Coffee-Container3 a {
+        text-decoration: none;
+        background: var(--Special-color);
+        color: var(--main-color);
+        padding: 1rem 2rem;
+        font-weight: bolder;
+        font-size: 2rem;
+        border-radius: 25px;
+        margin: 0 0 0 3.5rem;
+        transition: all .2s ease;
+        font-family: var(--Normal-font);
+    }
+
+    .Coffee-Container3 a:hover {
+        background: var(--main-color);
+        color: var(--Special-color);
+    }
+
+    /* OfferConatiner */
+
+    .OfferConatiner {
+        height: 70vh;
+        background: var(--Second-white);
+        border-top: 5px solid #152c52;
+        border-bottom: 0 solid #152c52;
+        padding: 3rem;
+    }
+
+    .OfferBorderConatiner {
+        display: flex;
+        justify-content: space-between;
+        border: 1rem solid #152c52;
+        overflow: hidden;
+        padding: 3rem;
+    }
+
+    .Offer-Cricle {
+        border: 1rem solid var(--Special-color);
+        background: var(--main-color);
+        border-radius: 50%;
+        padding: 20px;
+        width: 300px;
+        height: 350px;
+        text-align: center;
+        transition: transform 0.35s ease;
+    }
+
+    .Offer-Cricle img {
+        margin-top: 30px;
+    }
+
+    .Offer-Cricle h1 {
+        color: white;
+        font-size: 4rem;
+    }
+
+    .Offer-Cricle:hover {
+        transform: scale(1.05);
+    }
+
+    .Reactangle-Conatiner {
+        text-align: center;
+    }
+
+    .Reactangle-Conatiner h1 {
+        font-family: var(--Special-font);
+        font-size: 5rem;
+        color: var(--main-color);
+        padding-top: 1rem;
+    }
+
+    .Reactangle-Conatiner p {
+        max-width: 30rem;
+        font-weight: bold;
+    }
+
+    .Offer {
+        border: .3rem solid #dd6c3f;
+        background: #e08c6b;
+        border-radius: 25px;
+        margin: 1.3rem 0 2rem 0;
+        transition: transform 0.35s ease;
+    }
+
+    .Offer h1 {
+        font-family: var(--Normal-font);
+        font-size: 3rem;
+        font-weight: bolder;
+        padding: .6rem 0;
+    }
+
+    .Offer:hover {
+        transform: scale(1.05);
+    }
+
+    /* About.js */
+
+    .Main-About {
+        height: 86vh;
+        padding: 3rem;
+        background: var(--Second-white);
+        border-top: 5px solid #152c52;
+        border-bottom: 5px solid #152c52;
+    }
+
+    .Inner-About {
+        background: #f6f6f4;
+        text-align: center;
+    }
+
+    .Inner-About h1 {
+        font-family: var(--Special-font);
+        font-size: 5rem;
+        font-weight: bold;
+        padding-top: 1.3rem;
+    }
+
+    .Inner-About p {
+        padding: 2rem 3em;
+        font-weight: 600;
+    }
+
+    /* Reviews */
+
+    .Reviews-Container {
+        height: 105vh;
+        padding: 1rem 3rem 1rem 3rem;
+        background: var(--Second-white);
+        color: var(--main-color);
+        font-family: var(--Special-font);
+        text-align: center;
+        border-top: 5px solid #152c52;
+        border-bottom: 0 solid #152c52;
+        box-sizing: border-box;
+    }
+
+    .Reviews-Container h1 {
+        font-size: 6rem;
+    }
+
+    .Inner-ReviewsContainer {
+        display: flex;
+        justify-content: space-between;
+        background: var(--main-color);
+        color: white;
+        font-family: var(--Special-font);
+    }
+
+    .Reviews-img img {
+        width: 25rem;
+        height: 100%;
+        padding: 2rem;
+    }
+
+    .Reviews-Person h2 {
+        font-size: 3.4rem;
+        padding-top: 7rem;
+    }
+
+    .Reviews-Person p {
+        font-family: var(--Normal-font);
+        font-weight: light;
+        font-size: 1.2rem;
+        padding: 10px 2rem;
+        line-height: 1.9rem;
+        word-spacing: 6px;
+    }
+
+    /* Open */
+
+    .OpenDays {
+        height: 100vh;
+        background: var(--Second-white);
+        text-align: center;
+        border-top: 5px solid #152c52;
+        border-bottom: 5px solid #152c52;
+    }
+
+    .OpenDays h1 {
+        color: var(--main-color);
+        font-family: var(--Special-font);
+        font-size: 5rem;
+        padding-top: 3rem;
+    }
+
+    .Box1 {
+        width: 60%;
+        height: 18rem;
+        margin: 5% 20%;
+        background: #233e6a;
+        border-radius: 50px;
+        box-shadow: 8px 8px 18px black;
+        transition: transform .4s ease;
+    }
+
+    .Box1:hover {
+        transform: scale(1.05);
+    }
+
+    .Box1 h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: normal;
+        padding-top: 5rem;
+        font-family: var(--Normal-font);
+    }
+
+    .Box2 {
+        width: 60%;
+        height: 18rem;
+        margin: 5% 20%;
+        background: #233e6a;
+        border-radius: 50px;
+        box-shadow: 8px 8px 18px black;
+        transition: transform .4s ease;
+    }
+
+    .Box2:hover {
+        transform: scale(1.05);
+    }
+
+    .Box2 h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: normal;
+        padding-top: 5rem;
+        font-family: var(--Normal-font);
+    }
+
+    /* Card.js */
+
+    .Cards-Conatiner {
+        height: 100vh;
+        background: var(--Second-white);
+        text-align: center;
+    }
+
+    .Cards-Conatiner h1 {
+        font-family: var(--Special-font);
+        color: var(--main-color);
+        font-size: 5rem;
+        padding: 4rem 0;
+    }
+
+    .row {
+        width: 99%;
+    }
+
+    .col {
+        margin-left: 2%;
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        width: 275px;
+        height: 520px;
+        background: #233e6a;
+        border-radius: 0;
+        border: none;
+        transition: transform .3s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-body {
+        background: var(--main-color);
+        color: white;
+        margin: 1rem;
+        overflow: hidden;
+    }
+
+    .badge {
+        background: var(--Special-color);
+        font-family: var(--Special-font);
+        font-size: 3rem;
+    }
+
+    /* Footer.js */
+
+    .MainFooter {
+        height: 53vh;
+        background: #11213f;
+        color: white;
+    }
+
+    .MainFooter a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .InnerFooter {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5rem;
+    }
+
+    .FooterLogo a {
+        font-weight: bold;
+        font-size: 2.7rem;
+        padding-left: 20px;
+    }
+
+    .Box3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Box3 h1 {
+        font-weight: bolder;
+        padding-bottom: 3rem;
+    }
+
+    .Box3 a {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .Box4 {
+        display: flex;
+        flex-direction: column;
+        padding-right: 4rem;
+    }
+
+    .Box4 a {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .Box4 h1 {
+        font-weight: bolder;
+        padding-bottom: 3rem;
+    }
+
+    .Footer a {
+        color: var(--Special-color);
+        font-size: 2rem;
+        padding-right: 2rem;
+        float: right;
+    }
+
+    .Footer i {
+        transition: all .3s ease;
+    }
+
+    .Footer i:hover {
+        transform: scale(1.55);
+    }
 }
 
 @media screen and (min-width: 1301px) and (max-width: 1669px) {
 
     /* Coffee.js */
 
-.Coffee-Container {
-    height: 100vh;
-    background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
-    position: relative;
+    .Coffee-Container {
+        height: 100vh;
+        background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
+        position: relative;
+    }
+
+    .Coffee-Container h1 {
+        font-family: var(--Special-font);
+        font-size: 6rem;
+        max-width: 20rem;
+        color: var(--Special-font);
+        padding: 30rem 0 2rem 10rem;
+    }
+
+    .Coffee-Paragraph {
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    .Coffee-Container p {
+        float: right;
+        color: white;
+        max-width: 50rem;
+        margin-top: 15rem;
+        padding: 0 100px;
+        text-align: center;
+    }
+
+    .Coffee-Container img {
+        position: absolute;
+        top: 2%;
+        left: 3%;
+        border: 1.2rem inset var(--Special-color);
+        border-radius: 50%;
+        transition: transform 0.4s ease;
+    }
+
+    .Coffee-Container img:hover {
+        transform: scale(1.05);
+    }
+
+    .Coffee-Container a {
+        text-decoration: none;
+        background: var(--Special-color);
+        color: var(--main-color);
+        padding: 1rem 2rem;
+        font-weight: bolder;
+        font-size: 2rem;
+        border-radius: 25px;
+        margin: 0 0 0 10rem;
+        transition: all .2s ease;
+        font-family: var(--Normal-font);
+    }
+
+    .Coffee-Container a:hover {
+        background: var(--main-color);
+        color: var(--Special-color);
+    }
+
+    /* Coffee2 */
+
+    .Coffee-Container2 {
+        height: 100vh;
+        background-image: linear-gradient(to left, var(--Second-white) 50%, var(--main-color) 50%);
+        position: relative;
+    }
+
+    .Coffee-Details2 {
+        float: right;
+    }
+
+    .Coffee-Container2 h1 {
+        font-family: var(--Special-font);
+        max-width: 20rem;
+        font-size: 6rem;
+        color: var(--Special-font);
+        padding: 30rem 35rem 2rem 0;
+    }
+
+    .Coffee-Container2 p {
+        color: white;
+        max-width: 50%;
+        padding: 15rem 100px 0 100px;
+        text-align: center;
+    }
+
+    .Coffee-Container2 img:hover {
+        transform: scale(1.05);
+    }
+
+    .Coffee-Container2 img {
+        position: absolute;
+        top: 2%;
+        left: 60%;
+        border: 1.2rem dashed var(--Special-color);
+        border-radius: 50%;
+        transition: transform 0.4s ease;
+    }
+
+    .Coffee-Container2 a {
+        text-decoration: none;
+        background: var(--Special-color);
+        color: var(--main-color);
+        padding: 1rem 2rem;
+        font-weight: bolder;
+        font-size: 2rem;
+        border-radius: 25px;
+        transition: all .2s ease;
+        font-family: var(--Normal-font);
+    }
+
+    .Coffee-Container2 a:hover {
+        background: var(--main-color);
+        color: var(--Special-color);
+    }
+
+    /* Coffee3 */
+
+    .Coffee-Container3 {
+        height: 100vh;
+        background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
+        position: relative;
+    }
+
+    .Coffee-Container3 h1 {
+        font-family: var(--Special-font);
+        font-size: 6rem;
+        max-width: 20rem;
+        color: var(--Special-font);
+        padding: 30rem 0 2rem 10rem;
+    }
+
+    .Coffee-Container3 p {
+        float: right;
+        color: white;
+        max-width: 50%;
+        margin-top: 15rem;
+        padding: 0 100px;
+        text-align: center;
+    }
+
+    .Coffee-Container3 img {
+        position: absolute;
+        top: 2%;
+        left: 3%;
+        border: 1.2rem groove var(--Special-color);
+        border-radius: 50%;
+        transition: transform 0.4s ease;
+    }
+
+    .Coffee-Container3 img:hover {
+        transform: scale(1.05);
+    }
+
+    .Coffee-Container3 a {
+        text-decoration: none;
+        background: var(--Special-color);
+        color: var(--main-color);
+        padding: 1rem 2rem;
+        font-weight: bolder;
+        font-size: 2rem;
+        border-radius: 25px;
+        margin: 0 0 0 10rem;
+        transition: all .2s ease;
+        font-family: var(--Normal-font);
+    }
+
+    .Coffee-Container3 a:hover {
+        background: var(--main-color);
+        color: var(--Special-color);
+    }
+
+    /* OfferConatiner */
+
+    .OfferConatiner {
+        height: 80vh;
+        background: var(--Second-white);
+        border-top: 5px solid #152c52;
+        border-bottom: 0 solid #152c52;
+        padding: 3rem;
+    }
+
+    /* About.js */
+
+    .Main-About {
+        height: 70vh;
+        padding: 3rem;
+        background: var(--Second-white);
+        border-top: 5px solid #152c52;
+        border-bottom: 5px solid #152c52;
+    }
+
+    .Inner-About {
+        background: #f6f6f4;
+        text-align: center;
+    }
+
+    .Inner-About h1 {
+        font-family: var(--Special-font);
+        font-size: 5rem;
+        font-weight: bold;
+        padding-top: 1.3rem;
+    }
+
+    .Inner-About p {
+        padding: 2rem 3em;
+        font-weight: 600;
+    }
+
+    /* Reviews */
+
+    .Reviews-Container {
+        height: 105vh;
+        padding: 1rem 3rem 1rem 3rem;
+        background: var(--Second-white);
+        color: var(--main-color);
+        font-family: var(--Special-font);
+        text-align: center;
+        border-top: 5px solid #152c52;
+        border-bottom: 0 solid #152c52;
+        box-sizing: border-box;
+    }
+
+    .Reviews-img img {
+        width: 30rem;
+        height: 45rem;
+        padding: 2rem;
+    }
+
+    /* Open */
+    .Box1 {
+        width: 60%;
+        height: 15rem;
+        margin: 5% 20%;
+        background: #233e6a;
+        border-radius: 50px;
+        box-shadow: 8px 8px 18px black;
+        transition: transform .4s ease;
+    }
+
+    .Box1:hover {
+        transform: scale(1.05);
+    }
+
+    .Box1 h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: normal;
+        padding-top: 5rem;
+        font-family: var(--Normal-font);
+    }
+
+    .Box2 {
+        width: 60%;
+        height: 15rem;
+        margin: 5% 20%;
+        background: #233e6a;
+        border-radius: 50px;
+        box-shadow: 8px 8px 18px black;
+        transition: transform .4s ease;
+    }
+
+    .Box2:hover {
+        transform: scale(1.05);
+    }
+
+    .Box2 h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: normal;
+        padding-top: 5rem;
+        font-family: var(--Normal-font);
+    }
+
+    /* Card.js */
+
+    .Cards-Conatiner {
+        height: 100vh;
+        background: var(--Second-white);
+        text-align: center;
+    }
+
+    .Cards-Conatiner h1 {
+        font-family: var(--Special-font);
+        color: var(--main-color);
+        font-size: 5rem;
+        padding: 4rem 0;
+    }
+
+    .row {
+        width: 99%;
+    }
+
+    .col {
+        margin-left: 2%;
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        background: #233e6a;
+        border-radius: 0;
+        border: none;
+        transition: transform .3s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-body {
+        background: var(--main-color);
+        color: white;
+        margin: 1rem;
+        overflow: hidden;
+    }
+
+    .badge {
+        background: var(--Special-color);
+        font-family: var(--Special-font);
+        font-size: 3rem;
+    }
+
+    /* Footer.js */
+
+    .MainFooter {
+        height: 54vh;
+        background: #11213f;
+        color: white;
+    }
+
+    .MainFooter a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .InnerFooter {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 5rem;
+    }
+
+    .FooterLogo a {
+        font-weight: bold;
+        font-size: 2.7rem;
+        padding-left: 20px;
+    }
+
+    .Box3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Box3 h1 {
+        font-weight: bolder;
+        padding-bottom: 3rem;
+    }
+
+    .Box3 a {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .Box4 {
+        display: flex;
+        flex-direction: column;
+        padding-right: 4rem;
+    }
+
+    .Box4 a {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .Box4 h1 {
+        font-weight: bolder;
+        padding-bottom: 3rem;
+    }
+
+    .Footer a {
+        color: var(--Special-color);
+        font-size: 2rem;
+        padding-right: 2rem;
+        float: right;
+    }
+
+    .Footer i {
+        transition: all .3s ease;
+    }
+
+    .Footer i:hover {
+        transform: scale(1.55);
+    }
 }
 
-.Coffee-Container h1 {
-    font-family: var(--Special-font);
-    font-size: 6rem;
-    max-width: 20rem;
-    color: var(--Special-font);
-    padding: 30rem 0 2rem 10rem;
-}
+@media screen and (max-height: 850px) {
 
-.Coffee-Paragraph {
-    float: right;
-    height: 100%;
-    width: 50%;
-}
-
-.Coffee-Container p {
-    float: right;
-    color: white;
-    max-width: 50rem;
-    margin-top: 15rem;
-    padding: 0 100px;
-    text-align: center;
-}
-
-.Coffee-Container img {
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    border: 1.2rem inset var(--Special-color);
-    border-radius: 50%;
-    transition: transform 0.4s ease;
-}
-
-.Coffee-Container img:hover {
-    transform: scale(1.05);
-}
-
-.Coffee-Container a {
-    text-decoration: none;
-    background: var(--Special-color);
-    color: var(--main-color);
-    padding: 1rem 2rem;
-    font-weight: bolder;
-    font-size: 2rem;
-    border-radius: 25px;
-    margin: 0 0 0 10rem;
-    transition: all .2s ease;
-    font-family: var(--Normal-font);
-}
-
-.Coffee-Container a:hover {
-    background: var(--main-color);
-    color: var(--Special-color);
-}
-
-/* Coffee2 */
-
-.Coffee-Container2 {
-    height: 100vh;
-    background-image: linear-gradient(to left, var(--Second-white) 50%, var(--main-color) 50%);
-    position: relative;
-}
-
-.Coffee-Details2 {
-    float: right;
-}
-
-.Coffee-Container2 h1 {
-    font-family: var(--Special-font);
-    max-width: 20rem;
-    font-size: 6rem;
-    color: var(--Special-font);
-    padding: 30rem 35rem 2rem 0;
-}
-
-.Coffee-Container2 p {
-    color: white;
-    max-width: 50%;
-    padding: 15rem 100px 0 100px;
-    text-align: center;
-}
-
-.Coffee-Container2 img:hover {
-    transform: scale(1.05);
-}
-
-.Coffee-Container2 img {
-    position: absolute;
-    top: 2%;
-    left: 60%;
-    border: 1.2rem dashed var(--Special-color);
-    border-radius: 50%;
-    transition: transform 0.4s ease;
-}
-
-.Coffee-Container2 a {
-    text-decoration: none;
-    background: var(--Special-color);
-    color: var(--main-color);
-    padding: 1rem 2rem;
-    font-weight: bolder;
-    font-size: 2rem;
-    border-radius: 25px;
-    transition: all .2s ease;
-    font-family: var(--Normal-font);
-}
-
-.Coffee-Container2 a:hover {
-    background: var(--main-color);
-    color: var(--Special-color);
-}
-
-/* Coffee3 */
-
-.Coffee-Container3 {
-    height: 100vh;
-    background-image: linear-gradient(to left, var(--main-color) 50%, var(--Second-white) 50%);
-    position: relative;
-}
-
-.Coffee-Container3 h1 {
-    font-family: var(--Special-font);
-    font-size: 6rem;
-    max-width: 20rem;
-    color: var(--Special-font);
-    padding: 30rem 0 2rem 10rem;
-}
-
-.Coffee-Container3 p {
-    float: right;
-    color: white;
-    max-width: 50%;
-    margin-top: 15rem;
-    padding: 0 100px;
-    text-align: center;
-}
-
-.Coffee-Container3 img {
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    border: 1.2rem groove var(--Special-color);
-    border-radius: 50%;
-    transition: transform 0.4s ease;
-}
-
-.Coffee-Container3 img:hover {
-    transform: scale(1.05);
-}
-
-.Coffee-Container3 a {
-    text-decoration: none;
-    background: var(--Special-color);
-    color: var(--main-color);
-    padding: 1rem 2rem;
-    font-weight: bolder;
-    font-size: 2rem;
-    border-radius: 25px;
-    margin: 0 0 0 10rem;
-    transition: all .2s ease;
-    font-family: var(--Normal-font);
-}
-
-.Coffee-Container3 a:hover {
-    background: var(--main-color);
-    color: var(--Special-color);
-}
-
-/* OfferConatiner */
-
-.OfferConatiner {
-    height: 80vh;
-    background: var(--Second-white);
-    border-top: 5px solid #152c52;
-    border-bottom: 0 solid #152c52;
-    padding: 3rem;
-}
-
-/* About.js */
-
-.Main-About {
-    height: 70vh;
-    padding: 3rem;
-    background: var(--Second-white);
-    border-top: 5px solid #152c52;
-    border-bottom: 5px solid #152c52;
-}
-
-.Inner-About {
-    background: #f6f6f4;
-    text-align: center;
-}
-
-.Inner-About h1 {
-    font-family: var(--Special-font);
-    font-size: 5rem;
-    font-weight: bold;
-    padding-top: 1.3rem;
-}
-
-.Inner-About p {
-    padding: 2rem 3em;
-    font-weight: 600;
-}
-
-/* Reviews */
-
-.Reviews-Container {
-    height: 105vh;
-    padding: 1rem 3rem 1rem 3rem;
-    background: var(--Second-white);
-    color: var(--main-color);
-    font-family: var(--Special-font);
-    text-align: center;
-    border-top: 5px solid #152c52;
-    border-bottom: 0 solid #152c52;
-    box-sizing: border-box;
-}
-
-.Reviews-img img{
-    width: 30rem;
-    height: 45rem;
-    padding: 2rem;
-}
-
-/* Open */
-.Box1 {
-    width: 60%;
-    height: 15rem;
-    margin: 5% 20%;
-    background: #233e6a;
-    border-radius: 50px;
-    box-shadow: 8px 8px 18px black;
-    transition: transform .4s ease;
-}
-
-.Box1:hover {
-    transform: scale(1.05);
-}
-
-.Box1 h1 {
-    color: white;
-    font-size: 3rem;
-    font-weight: normal;
-    padding-top: 5rem;
-    font-family: var(--Normal-font);
-}
-
-.Box2 {
-    width: 60%;
-    height: 15rem;
-    margin: 5% 20%;
-    background: #233e6a;
-    border-radius: 50px;
-    box-shadow: 8px 8px 18px black;
-    transition: transform .4s ease;
-}
-
-.Box2:hover {
-    transform: scale(1.05);
-}
-
-.Box2 h1 {
-    color: white;
-    font-size: 3rem;
-    font-weight: normal;
-    padding-top: 5rem;
-    font-family: var(--Normal-font);
-}
-
-/* Card.js */
-
-.Cards-Conatiner {
-    height: 100vh;
-    background: var(--Second-white);
-    text-align: center;
-}
-
-.Cards-Conatiner h1 {
-    font-family: var(--Special-font);
-    color: var(--main-color);
-    font-size: 5rem;
-    padding: 4rem 0;
-}
-
-.row {
-    width: 99%;
-}
-
-.col {
-    margin-left: 2%;
-    margin-bottom: 2rem;
-}
-
-.card {
-    width: 100%;
-    height: 100%;
-    background: #233e6a;
-    border-radius: 0;
-    border: none;
-    transition: transform .3s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card-body {
-    background: var(--main-color);
-    color: white;
-    margin: 1rem;
-    overflow: hidden;
-}
-
-.badge {
-    background: var(--Special-color);
-    font-family: var(--Special-font);
-    font-size: 3rem;
-}
-
-/* Footer.js */
-
-.MainFooter {
-    height: 54vh;
-    background: #11213f;
-    color: white;
-}
-
-.MainFooter a {
-    text-decoration: none;
-    color: white;
-}
-
-.InnerFooter {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 5rem;
-}
-
-.FooterLogo a {
-    font-weight: bold;
-    font-size: 2.7rem;
-    padding-left: 20px;
-}
-
-.Box3 {
-    display: flex;
-    flex-direction: column;
-}
-
-.Box3 h1 {
-    font-weight: bolder;
-    padding-bottom: 3rem;
-}
-
-.Box3 a {
-    font-size: 1.2rem;
-    line-height: 3rem;
-}
-
-.Box4 {
-    display: flex;
-    flex-direction: column;
-    padding-right: 4rem;
-}
-
-.Box4 a {
-    font-size: 1.2rem;
-    line-height: 3rem;
-}
-
-.Box4 h1 {
-    font-weight: bolder;
-    padding-bottom: 3rem;
-}
-
-.Footer a {
-    color: var(--Special-color);
-    font-size: 2rem;
-    padding-right: 2rem;
-    float: right;
-}
-
-.Footer i {
-    transition: all .3s ease;
-}
-
-.Footer i:hover {
-    transform: scale(1.55);
-}
+    .HomeContainer,
+    .Coffee-Container,
+    .Coffee-Container,
+    .Coffee-Container2,
+    .Coffee-Container3,
+    .OfferConatiner,
+    .Main-About,
+    .Reviews-Container,
+    .OpenDays,
+    .Cards-Conatiner,
+    .MainFooter {
+        height: -webkit-fill-available;
+    }
 }

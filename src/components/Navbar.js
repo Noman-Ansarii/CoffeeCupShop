@@ -24,7 +24,7 @@ function Navbar() {
                     <div className="nav-conatiner">
                         <div className="nav-links-conatiners">
                             <div className="Toggle-btn">
-                                <i className="bx bx-menu" data-aos="fade-down"></i>
+                                <i className="bx bx-menu"></i>
                             </div>
                             <ul>
                                 <div className="nav-links" data-aos="fade-down"><li><a href="#Home">Home</a></li></div>
