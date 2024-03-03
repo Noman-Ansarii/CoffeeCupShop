@@ -352,6 +352,7 @@ nav {
     border-top: 5px solid #152c52;
     border-bottom: 5px solid #152c52;
     padding: 3rem;
+    text-align: center;
 }
 
 .OfferBorderConatiner {
@@ -393,15 +394,18 @@ nav {
 }
 
 .Reactangle-Conatiner p {
-    max-width: 30rem;
+    width: 50%;
+    margin: auto;
     font-weight: bold;
 }
 
 .Offer {
+    width: 60%;
+    margin: 2rem auto;
     border: .3rem solid #dd6c3f;
     background: #e08c6b;
     border-radius: 25px;
-    margin: 1.3rem 0 2rem 0;
+    /* margin: 1.3rem 0 2rem 0; */
     transition: transform 0.35s ease;
 }
 
@@ -593,9 +597,17 @@ nav {
 /* Footer.js */
 
 .MainFooter {
-    height: 50vh;
     background: #11213f;
     color: white;
+}
+
+.MainFooter a:hover{
+    text-decoration: underline var(--white);
+    color: var(--Special-color);
+}
+
+.Footer{
+    background: #11213f;
 }
 
 .MainFooter a {
@@ -606,13 +618,12 @@ nav {
 .InnerFooter {
     display: flex;
     justify-content: space-between;
-    padding-top: 5rem;
+    padding: 3rem 0;
 }
 
 .FooterLogo a {
     font-weight: bold;
     font-size: 2.7rem;
-    padding-left: 20px;
 }
 
 .Box3 {
@@ -627,7 +638,7 @@ nav {
 
 .Box3 a {
     font-size: 1.2rem;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
 .Box4 {
@@ -646,11 +657,14 @@ nav {
     padding-bottom: 3rem;
 }
 
+.Footer{
+    text-align: right;
+}
+
 .Footer a {
     color: var(--Special-color);
     font-size: 2rem;
     padding-right: 2rem;
-    float: right;
 }
 
 .Footer i {
@@ -1185,7 +1199,6 @@ nav {
     /* Footer.js */
 
     .MainFooter {
-        height: 50vh;
         background: #11213f;
         color: white;
     }
@@ -1721,7 +1734,6 @@ nav {
     /* Footer.js */
 
     .MainFooter {
-        height: 82vh;
         background: #11213f;
         color: white;
     }
@@ -2402,7 +2414,6 @@ nav {
     /* Footer.js */
 
     .MainFooter {
-        height: 94vh;
         background: #11213f;
         color: white;
     }
@@ -2958,7 +2969,6 @@ nav {
     /* Footer.js */
 
     .MainFooter {
-        height: 53vh;
         background: #11213f;
         color: white;
     }
@@ -3472,7 +3482,6 @@ nav {
     /* Footer.js */
 
     .MainFooter {
-        height: 53vh;
         background: #11213f;
         color: white;
     }
@@ -3873,7 +3882,6 @@ nav {
     /* Footer.js */
 
     .MainFooter {
-        height: 54vh;
         background: #11213f;
         color: white;
     }

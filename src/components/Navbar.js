@@ -6,17 +6,17 @@ function Navbar() {
         const ToggleBtn = document.querySelector('.Toggle-btn');
         const ToggleBtnIcon = document.querySelector('.Toggle-btn i');
         const dropDownMenu = document.querySelector('.Dropdown-menu');
-    
+
         // Update your click event handler
         ToggleBtn.onclick = function (event) {
-          event.preventDefault(); // Prevent page refresh
-          dropDownMenu.classList.toggle('open');
-          const isOpen = dropDownMenu.classList.contains('open');
-          ToggleBtnIcon.className = isOpen ? 'bx bx-x' : 'bx bx-menu';
+            event.preventDefault(); // Prevent page refresh
+            dropDownMenu.classList.toggle('open');
+            const isOpen = dropDownMenu.classList.contains('open');
+            ToggleBtnIcon.className = isOpen ? 'bx bx-x' : 'bx bx-menu';
         };
-    
-      }, []); // Empty dependency array ensures this effect runs only once after initial render
-    
+
+    }, []); // Empty dependency array ensures this effect runs only once after initial render
+
     return (
         <>
             <header>
@@ -47,8 +47,7 @@ function Navbar() {
                 </nav>
 
                 <div className="Dropdown-menu">
-                    <div className="nav-link"><li><a href="#One
-                    ">Home</a></li></div>
+                    <div className="nav-link"><li><a href="#One">Home</a></li></div>
                     <div className="nav-link"><li><a href="#Third">About</a></li></div>
                     <div className="nav-link"><li><a href="#Second">Menu</a></li></div>
                     <div className="nav-link"><li><a href="/">Blog</a></li></div>

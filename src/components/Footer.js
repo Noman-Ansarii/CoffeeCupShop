@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <a name="Contact"></a><div className="MainFooter">
-        <div className="InnerFooter">
+        <div className="InnerFooter container">
             <div className="FooterLogo">
                 <img src={IMG} alt="" /><a href='/'>CoffeeCup</a>
             </div>
