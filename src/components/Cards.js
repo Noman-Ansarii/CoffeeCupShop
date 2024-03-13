@@ -8,7 +8,7 @@ function Cards() {
         <>
             <a name="Shop"></a><div className="Cards-Conatiner">
                 <h1>Our Branches</h1>
-                <div className="row">
+                <div className="row flex align-items-center">
                     <div className="col">
                         <div className="card">
                             <img src={IMG} className="card-img-top" alt="..." />

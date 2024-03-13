@@ -549,9 +549,9 @@ nav {
 /* Card.js */
 
 .Cards-Conatiner {
-    height: 100vh;
     background: var(--Second-white);
     text-align: center;
+    padding: 4rem 0;
 }
 
 .Cards-Conatiner h1 {
@@ -597,8 +597,10 @@ nav {
 /* Footer.js */
 
 .MainFooter {
+    text-align: center;
     background: #11213f;
     color: white;
+    padding: 3rem 0;
 }
 
 .MainFooter a:hover{
@@ -618,7 +620,6 @@ nav {
 .InnerFooter {
     display: flex;
     justify-content: space-between;
-    padding: 3rem 0;
 }
 
 .FooterLogo a {
@@ -715,6 +716,10 @@ nav {
 
     .nav-link a:hover {
         color: var(--Special-color);
+    }
+
+    .InnerFooter a{
+        font-size: 20px !important;
     }
 }
 
@@ -1149,7 +1154,6 @@ nav {
     /* Card.js */
 
     .Cards-Conatiner {
-        height: 140vh;
         background: var(--Second-white);
         text-align: center;
     }
@@ -1210,8 +1214,7 @@ nav {
 
     .InnerFooter {
         display: flex;
-        justify-content: space-between;
-        padding-top: 5rem;
+        justify-content: center;
     }
 
     .FooterLogo a {
@@ -1684,7 +1687,6 @@ nav {
     /* Card.js */
 
     .Cards-Conatiner {
-        height: 200vh;
         background: var(--Second-white);
         text-align: center;
     }
@@ -1745,9 +1747,8 @@ nav {
 
     .InnerFooter {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
-        padding-top: 5rem;
     }
 
     .FooterLogo a {
@@ -1833,7 +1834,6 @@ nav {
     }
 
     .Cards-Conatiner {
-        height: 220vh;
         background: var(--Second-white);
         text-align: center;
     }
@@ -2364,7 +2364,6 @@ nav {
     /* Card.js */
 
     .Cards-Conatiner {
-        height: 240vh;
         background: var(--Second-white);
         text-align: center;
     }
@@ -2425,9 +2424,8 @@ nav {
 
     .InnerFooter {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
-        padding-top: 5rem;
     }
 
     .FooterLogo a {
@@ -2919,7 +2917,6 @@ nav {
     /* Card.js */
 
     .Cards-Conatiner {
-        height: 150vh;
         background: var(--Second-white);
         text-align: center;
     }
@@ -2982,7 +2979,6 @@ nav {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding-top: 5rem;
     }
 
     .FooterLogo a {
@@ -3432,7 +3428,6 @@ nav {
     /* Card.js */
 
     .Cards-Conatiner {
-        height: 100vh;
         background: var(--Second-white);
         text-align: center;
     }
@@ -3494,7 +3489,6 @@ nav {
     .InnerFooter {
         display: flex;
         justify-content: space-between;
-        padding-top: 5rem;
     }
 
     .FooterLogo a {
@@ -3832,7 +3826,6 @@ nav {
     /* Card.js */
 
     .Cards-Conatiner {
-        height: 100vh;
         background: var(--Second-white);
         text-align: center;
     }
@@ -3894,7 +3887,6 @@ nav {
     .InnerFooter {
         display: flex;
         justify-content: space-between;
-        padding-top: 5rem;
     }
 
     .FooterLogo a {
